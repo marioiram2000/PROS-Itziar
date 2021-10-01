@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <signal.h>
+
 /* --------------------------------------------------*/
 /* gestion de señales en proceso PADRE               */
 void gestion_padre (int signal )
