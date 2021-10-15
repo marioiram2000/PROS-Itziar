@@ -15,10 +15,10 @@ void main (){
         exit (-1);
     }else if(pid == 0){//En el proceso hijo
         i -= 5;
-        pid = wait(NULL);
         printf("Variable en Proceso Hijo: %d\n", i);
     }else{//En el proceso padre
         i += 5;
+        pid = wait(NULL);
         printf("Variable en Proceso Padre: %d\n", i);
     }
 }
