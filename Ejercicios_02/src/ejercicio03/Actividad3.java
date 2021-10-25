@@ -1,6 +1,6 @@
-package ejercicio3;
+package ejercicio03;
 
-import ejercicio1.Hilo;
+import ejercicio01.Hilo;
 
 public class Actividad3 {
 	public static void main(String[] args) {

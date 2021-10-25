@@ -1,4 +1,4 @@
-package ejercicio1;
+package ejercicio01;
 
 public class Hilo extends Thread{//Tiene que extender de Thread
 
