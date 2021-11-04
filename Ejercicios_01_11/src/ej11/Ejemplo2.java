@@ -4,8 +4,8 @@ import java.io.*;
 public class Ejemplo2 {
 	public static void main(String[] args){
 		Runtime r=Runtime.getRuntime();
-		String comando="CMD /C DIR";
-	    	//String comando="ls -al "; // Para un Linux o un MAC
+		//String comando="CMD /C DIR";
+	    String comando="ls -al "; // Para un Linux o un MAC
 		Process p=null;
 		try {
 			p = r.exec (comando);
