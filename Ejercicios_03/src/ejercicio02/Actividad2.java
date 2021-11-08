@@ -1,4 +1,4 @@
-package ejercicio2;
+package ejercicio02;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
