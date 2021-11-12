@@ -12,13 +12,6 @@ int main (void)
 	int p, bytesleidos;
 	char buffer [10];
 
-	p = mknod("FIFOej9", S_IFIFO|0666, 0); ///Creamos el fifo con permiso de lectura y escritura
-	if (p== -1) {//Comprobamos si se ha creado el fifo
-		//remove("FIFOej9");
-		printf("Tienes que eliminar el fifo");
-		exit(1);
-	}
-
 	while (1) {//Bucle infinito
 		fp = open ("FIFOej9", 0);//Abrimos el fifo
 		bytesleidos = read(fp, buffer, 1);//Leemos el fifo

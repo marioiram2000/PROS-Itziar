@@ -1,7 +1,5 @@
 package ejercicio03;
 
-import ejercicio01.Hilo;
-
 public class Actividad3 {
 	public static void main(String[] args) {
 		
