@@ -12,7 +12,7 @@ int main ()
   if (hijo_pid > 0) {
     printf("Soy el proceso padre \n");
     wait (NULL);
-    sleep (1);
+    sleep (60);
     exit(0);
   }else if (hijo_pid == 1){
     exit(0);
