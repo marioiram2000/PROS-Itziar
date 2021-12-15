@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 public class Actividad2 {
 
 	public static void main(String[] args) {
-		String direccion = "wwwa.moodle.org";
+		String direccion = args[0];
 		InetAddress address[];
 		try {
 			address = InetAddress.getAllByName(direccion);
